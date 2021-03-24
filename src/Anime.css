@@ -1,0 +1,57 @@
+.list {
+  /* text-align: center; */
+}
+.h1 {
+  color: red;
+  display: inline-block;
+  margin-left: 20px;
+  float: left;
+}
+
+.h2 {
+  color: red;
+  display: inline-block;
+  margin-right: 20px;
+  float: right;
+}
+
+.imgForm {
+  width: 100%;
+  min-height: 300px;
+  display: block;
+  position: relative;
+  top: 120px;
+  z-index: -999;
+  background: #029192;
+}
+
+.imgContainer {
+  /* height: 300px; */
+  /* border: 1px solid #000; */
+  /* margin: auto; */
+  float: left;
+  overflow: hidden;
+}
+
+.img {
+  /* max-width: 200px; */
+  /* width: 20%; */
+  /* max-width: 140px; */
+  height: 200px;
+  /* overflow: hidden; */
+  margin-left: 0px;
+  padding: 20px;
+  overflow: auto;
+
+  @media screen and (max-width: 1200px) {
+    height: 10px;
+  }
+}
+
+.logo {
+  color: red;
+  display: inline-block;
+  margin-left: 20px;
+  float: left;
+  height: 10px;
+}
